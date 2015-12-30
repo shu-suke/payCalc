@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C07922D41C346DFE003DEF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07922D31C346DFE003DEF92 /* AppDelegate.swift */; };
+		C07922D61C346DFE003DEF92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07922D51C346DFE003DEF92 /* ViewController.swift */; };
+		C07922D91C346DFE003DEF92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07922D71C346DFE003DEF92 /* Main.storyboard */; };
+		C07922DB1C346DFE003DEF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07922DA1C346DFE003DEF92 /* Assets.xcassets */; };
+		C07922DE1C346DFE003DEF92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07922DC1C346DFE003DEF92 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C07922D01C346DFE003DEF92 /* payCalc2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = payCalc2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07922D31C346DFE003DEF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C07922D51C346DFE003DEF92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C07922D81C346DFE003DEF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C07922DA1C346DFE003DEF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C07922DD1C346DFE003DEF92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C07922DF1C346DFE003DEF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C07922CD1C346DFE003DEF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C07922C71C346DFE003DEF92 = {
+			isa = PBXGroup;
+			children = (
+				C07922D21C346DFE003DEF92 /* payCalc2 */,
+				C07922D11C346DFE003DEF92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C07922D11C346DFE003DEF92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07922D01C346DFE003DEF92 /* payCalc2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C07922D21C346DFE003DEF92 /* payCalc2 */ = {
+			isa = PBXGroup;
+			children = (
+				C07922D31C346DFE003DEF92 /* AppDelegate.swift */,
+				C07922D51C346DFE003DEF92 /* ViewController.swift */,
+				C07922D71C346DFE003DEF92 /* Main.storyboard */,
+				C07922DA1C346DFE003DEF92 /* Assets.xcassets */,
+				C07922DC1C346DFE003DEF92 /* LaunchScreen.storyboard */,
+				C07922DF1C346DFE003DEF92 /* Info.plist */,
+			);
+			path = payCalc2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C07922CF1C346DFE003DEF92 /* payCalc2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07922E21C346DFE003DEF92 /* Build configuration list for PBXNativeTarget "payCalc2" */;
+			buildPhases = (
+				C07922CC1C346DFE003DEF92 /* Sources */,
+				C07922CD1C346DFE003DEF92 /* Frameworks */,
+				C07922CE1C346DFE003DEF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = payCalc2;
+			productName = payCalc2;
+			productReference = C07922D01C346DFE003DEF92 /* payCalc2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C07922C81C346DFE003DEF92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = shusuke;
+				TargetAttributes = {
+					C07922CF1C346DFE003DEF92 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C07922CB1C346DFE003DEF92 /* Build configuration list for PBXProject "payCalc2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C07922C71C346DFE003DEF92;
+			productRefGroup = C07922D11C346DFE003DEF92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07922CF1C346DFE003DEF92 /* payCalc2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C07922CE1C346DFE003DEF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07922DE1C346DFE003DEF92 /* LaunchScreen.storyboard in Resources */,
+				C07922DB1C346DFE003DEF92 /* Assets.xcassets in Resources */,
+				C07922D91C346DFE003DEF92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C07922CC1C346DFE003DEF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07922D61C346DFE003DEF92 /* ViewController.swift in Sources */,
+				C07922D41C346DFE003DEF92 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C07922D71C346DFE003DEF92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07922D81C346DFE003DEF92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C07922DC1C346DFE003DEF92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07922DD1C346DFE003DEF92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C07922E01C346DFE003DEF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C07922E11C346DFE003DEF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C07922E31C346DFE003DEF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = payCalc2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shusuke.payCalc2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C07922E41C346DFE003DEF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = payCalc2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shusuke.payCalc2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C07922CB1C346DFE003DEF92 /* Build configuration list for PBXProject "payCalc2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07922E01C346DFE003DEF92 /* Debug */,
+				C07922E11C346DFE003DEF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07922E21C346DFE003DEF92 /* Build configuration list for PBXNativeTarget "payCalc2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07922E31C346DFE003DEF92 /* Debug */,
+				C07922E41C346DFE003DEF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C07922C81C346DFE003DEF92 /* Project object */;
+}
