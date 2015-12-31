@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="payCalc2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,102 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="金額" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5BW-Br-GJK">
+                                <rect key="frame" x="28" y="136" width="34" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="金額を入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ja9-Lv-CNq">
+                                <rect key="frame" x="0.0" y="180" width="600" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="人数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oNM-O6-pXX">
+                                <rect key="frame" x="32" y="243" width="34" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="人数を入力" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EtE-vJ-F0X">
+                                <rect key="frame" x="-3" y="296" width="603" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vlZ-a3-ALo">
+                                <rect key="frame" x="230" y="94" width="136" height="21"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="割り勘計算ツール" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlI-GQ-m1w">
+                                        <rect key="frame" x="0.0" y="0.0" width="136" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="AlI-GQ-m1w" secondAttribute="trailing" id="ESo-Ip-uyf"/>
+                                    <constraint firstItem="AlI-GQ-m1w" firstAttribute="leading" secondItem="vlZ-a3-ALo" secondAttribute="leading" id="IVq-v2-fo2"/>
+                                    <constraint firstItem="AlI-GQ-m1w" firstAttribute="leading" secondItem="vlZ-a3-ALo" secondAttribute="leading" id="JwZ-wB-Jdv"/>
+                                    <constraint firstItem="AlI-GQ-m1w" firstAttribute="leading" secondItem="vlZ-a3-ALo" secondAttribute="leading" id="O6s-1b-bmN"/>
+                                    <constraint firstItem="AlI-GQ-m1w" firstAttribute="top" secondItem="vlZ-a3-ALo" secondAttribute="top" constant="20" id="Q1V-re-U5v"/>
+                                    <constraint firstItem="AlI-GQ-m1w" firstAttribute="leading" secondItem="vlZ-a3-ALo" secondAttribute="leading" id="fYN-OV-W89"/>
+                                    <constraint firstAttribute="trailing" secondItem="AlI-GQ-m1w" secondAttribute="trailing" id="hRc-3R-mcG"/>
+                                    <constraint firstAttribute="trailing" secondItem="AlI-GQ-m1w" secondAttribute="trailing" id="kgG-1q-qfi"/>
+                                    <constraint firstItem="AlI-GQ-m1w" firstAttribute="top" secondItem="vlZ-a3-ALo" secondAttribute="top" constant="50" id="mT5-1g-jJT"/>
+                                    <constraint firstItem="AlI-GQ-m1w" firstAttribute="top" secondItem="vlZ-a3-ALo" secondAttribute="top" constant="10" id="pIg-Xg-qSE"/>
+                                    <constraint firstItem="AlI-GQ-m1w" firstAttribute="centerX" secondItem="vlZ-a3-ALo" secondAttribute="centerX" id="tbu-mQ-9GH"/>
+                                    <constraint firstItem="AlI-GQ-m1w" firstAttribute="top" secondItem="vlZ-a3-ALo" secondAttribute="top" constant="10" id="vQf-tB-e0U"/>
+                                    <constraint firstAttribute="trailing" secondItem="AlI-GQ-m1w" secondAttribute="trailing" id="y1r-IO-vUw"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caf-69-K3o">
+                                <rect key="frame" x="283" y="370" width="30" height="30"/>
+                                <state key="normal" title="計算"/>
+                                <connections>
+                                    <action selector="tapCalc" destination="BYZ-38-t0r" eventType="touchUpInside" id="rdO-TT-zmR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJo-zz-sxV">
+                                <rect key="frame" x="0.0" y="431" width="600" height="21"/>
+                                <color key="backgroundColor" red="0.81440019659999996" green="1" blue="0.96245806109999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ja9-Lv-CNq" firstAttribute="top" secondItem="5BW-Br-GJK" secondAttribute="bottom" constant="20" id="3JH-F6-V2k"/>
+                            <constraint firstItem="EtE-vJ-F0X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8t1-pc-9v3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EtE-vJ-F0X" secondAttribute="trailing" id="C22-hY-UN9"/>
+                            <constraint firstItem="jJo-zz-sxV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="G9S-nN-V2O"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="caf-69-K3o" secondAttribute="trailing" id="GZU-XG-EAf"/>
+                            <constraint firstItem="EtE-vJ-F0X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Gyt-7I-vPl"/>
+                            <constraint firstItem="Ja9-Lv-CNq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Jx0-lg-Gmf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ja9-Lv-CNq" secondAttribute="trailing" id="NA1-Ot-PvM"/>
+                            <constraint firstItem="EtE-vJ-F0X" firstAttribute="top" secondItem="oNM-O6-pXX" secondAttribute="bottom" constant="20" id="Nwl-zg-fck"/>
+                            <constraint firstItem="caf-69-K3o" firstAttribute="top" secondItem="EtE-vJ-F0X" secondAttribute="bottom" constant="20" id="UGd-ce-OPI"/>
+                            <constraint firstItem="5BW-Br-GJK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="ZMq-v1-gbP"/>
+                            <constraint firstItem="oNM-O6-pXX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="a5F-6i-HIm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jJo-zz-sxV" secondAttribute="trailing" id="bZw-Lo-6cf"/>
+                            <constraint firstItem="caf-69-K3o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dWF-Bd-7AU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EtE-vJ-F0X" secondAttribute="trailing" id="hum-Oq-Csw"/>
+                            <constraint firstItem="vlZ-a3-ALo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nma-dT-OcN"/>
+                            <constraint firstItem="jJo-zz-sxV" firstAttribute="top" secondItem="caf-69-K3o" secondAttribute="bottom" constant="30" id="qaD-4y-7SB"/>
+                            <constraint firstItem="oNM-O6-pXX" firstAttribute="top" secondItem="Ja9-Lv-CNq" secondAttribute="bottom" constant="20" id="xY1-4A-Mcf"/>
+                            <constraint firstItem="EtE-vJ-F0X" firstAttribute="top" secondItem="oNM-O6-pXX" secondAttribute="bottom" constant="20" id="zse-7W-dlX"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberTextField" destination="EtE-vJ-F0X" id="Hwr-CS-JUz"/>
+                        <outlet property="priceTextField" destination="Ja9-Lv-CNq" id="pJb-9e-IEw"/>
+                        <outlet property="resultLabal" destination="jJo-zz-sxV" id="J0u-5v-jgV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="423" y="334"/>
         </scene>
     </scenes>
 </document>

@@ -9,7 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var priceTextField: UITextField!
+    @IBOutlet weak var numberTextField: UITextField!
+    @IBOutlet weak var resultLabal: UILabel!
+    
+    @IBAction func tapCalc() {
+        guard let pricetext = priceTextField.text else {
+            return
+        }
+        guard let numbertext = numberTextField.text else {
+            return
+        }
+        
+        resultLabal.text = "\(Int(pricetext)! / Int(numbertext)!)円"
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
